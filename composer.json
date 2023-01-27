@@ -24,7 +24,8 @@
         "drupal/devel": "^5.1",
         "drupal/upgrade_status": "^3.13",
         "drush/drush": "^10.6 || ^11",
-        "oomphinc/composer-installers-extender": "^1.1 || ^2"
+        "oomphinc/composer-installers-extender": "^1.1 || ^2",
+        "symfony/phpunit-bridge": "^6.2"
     },
     "require-dev": {
         "acquia/coding-standards": "^1.0.0",
