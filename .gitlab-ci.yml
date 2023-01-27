@@ -1,0 +1,10 @@
+include:
+  - project: 'acquia/standard-template'
+    file:
+      - '/gitlab-ci/Auto-DevOps.acquia.gitlab-ci.yml'
+
+variables:
+  PHP_VERSION: "8.1"
+  ACQUIA_TASKS_PHPCS: "false"
+  ACQUIA_TASKS_PHPSTAN: "false"
+  ACQUIA_JOBS_CREATE_CDE: "false"
