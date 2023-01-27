@@ -1,0 +1,22 @@
+name: starterkit_custom_theme
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - starterkit_custom_theme/base
+  - starterkit_custom_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - starterkit_custom_theme/user
+  core/drupal.dropbutton:
+    - starterkit_custom_theme/dropbutton
+  core/drupal.dialog:
+    - starterkit_custom_theme/dialog
+  file/drupal.file:
+    - starterkit_custom_theme/file
+  core/drupal.progress:
+    - starterkit_custom_theme/progress
+core_version_requirement: ^9
+generator: 'starterkit_theme:9.5.2'
